@@ -1,0 +1,26 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+    color:white;
+}
+
+form{
+    margin-left: 35%;
+    margin-top: 60px;
+}
+
+input{
+    margin-bottom: 10px;
+    background-color: rgb(37, 37, 37);
+    color:white;
+}
+
+#send_btn{
+    margin-left:15%;
+    background-color: rgb(37, 37, 37);
+    color:white;
+}

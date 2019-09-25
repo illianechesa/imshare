@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="./css/sign-user.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">        </script>
+    <script src="typeahead.min.js"></script>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Social icons -->
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/personal-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.php"><img src="img/imshare.png" alt="Logo imShare"
+                    style="width:100px;height:35px"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <a href="index.php?accion=log&id=1" class="nav-link" name="id" value="1">Login</a>
+                    <a href="index.php?accion=alta&id=1" class="nav-link" name="id" value="3">Sign Up</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <form action="index.php" method="post">
+        <br><br><br><br>
+        Username: <input type="text" name="username"><br>
+        Email: <input type="email" name="email"><br>
+        Password: <input type="password" name="password"><br>
+        Confirm Password: <input type="password" name="password2"><br><br>
+
+        Name: <input type="text" name="nombre"><br>
+        First Surname: <input type="text" name="apellido1"><br>
+        Second Surname: <input type="text" name="apellido2"><br>
+
+        <input type="hidden" name="accion" value="alta">
+        <input type="hidden" name="id" value="2">
+        <input id="send_btn" type="submit" value="Sign Up">
+    </form>
+    <footer class="navbar-dark bg-dark">
+        <div class="navbar-brand" style="font-size: 10pt; margin-top: 3px">
+            Team imShare
+        </div>
+    </footer>
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery.poptrox.min.js"></script>
+    <script src="./assets/js/browser.min.js"></script>
+    <script src="./assets/js/breakpoints.min.js"></script>
+    <script src="./assets/js/util.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

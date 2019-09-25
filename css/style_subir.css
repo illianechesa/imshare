@@ -1,0 +1,39 @@
+body{
+    background: black;
+    color:white;
+}
+
+#uploadtoserver{
+    margin-top:100px;
+    margin-left:33%;
+}
+
+#label{
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 50%;
+   }
+   
+   .content{
+    padding: 5px;
+    margin: 0 auto;
+   }
+   .content span{
+    width: 250px;
+    color:black;
+   }
+   
+   .dz-message{
+    text-align: center;
+    font-size: 28px;
+   
+    color:white;
+   }
+
+   label{
+       color:white;
+   }
+

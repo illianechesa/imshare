@@ -1,0 +1,199 @@
+/*!
+ */
+ :root {
+  --section-text-color: black;
+  --content-color:black;
+  --content-title-color:#343A40;
+  --h1-color:#343A40;
+  --content-span-color:teal;
+  --content-span-color-over:#343A40;
+  /*--section-text-color:#343A40;*/
+  --section-text-color:white;
+  --section-bg-image:url('../img/header.jpg');
+  --section-bg-color:;
+  --error-bg-image:url('../img/header.jpg');
+}
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+span {
+  color:var(--content-span-color);
+}
+dd {
+  color:var(--content-title-color)
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 150px;
+  max-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title-color{
+  color: var(--content-span-color);
+}
+/********************************************/
+/*Unai image and social styles*/
+/********************************************/
+#u-img{
+  min-width:200px;
+  width:95%;
+  border-radius: 50%;
+  padding-bottom: 15px;
+}
+#u-social{
+  height: 100px;
+  display: inline-block;
+}
+#u-social .fa, #u-social .ai{
+	font-size: 3em;
+	color:grey;
+}
+#u-social .upna{
+	font-size: 2.4em;
+}
+#u-social .fa:hover, #u-social .ai:hover, #u-social .upna:hover{
+	color:DimGray;
+}
+
+/********************************************/
+/*Research images sizes*/
+/********************************************/
+.r-img{
+  min-width:200px;
+  width:100%;
+  padding-bottom: 15px;
+  border-radius: 50%;
+}
+/********************************************/
+/*Error 404 page*/
+/********************************************/
+#error-bg {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: var(--error-bg-image);
+  text-align: center;
+  line-height: 90vh;
+}
+#error-text-align {
+    display: inline-block; 
+    text-align: left;
+    width: 85%;
+    max-width: 1080px;
+}
+#error-text-align h1 {
+  color: white;
+  font-size: 4em;
+}
+#error-text-align h2 {
+  color: white;
+  font-size: 3em;
+}
+/********************************************/
+/*Content page*/
+/********************************************/
+#section-bg{
+  width: 100%;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: var(--section-bg-image);
+  background-color: var(--section-bg-color);
+  text-align: center;
+  align-items: center;
+}
+#section-text{
+  font-size: 1.8em;
+  line-height: 2em;
+  color:var(--section-text-color);
+}
+
+#content-bg {
+  text-align: center;
+  padding: 4em;
+}
+
+#content-text-align {
+    display: inline-block; 
+    text-align: justify;
+    width: 100%;
+    max-width: 1080px;
+}
+#content-text-align dt {
+  color:var(--content-title-color);
+}
+#content-text-align span {
+  color:var(--content-span-color);
+}
+#content-text-align h1 {
+  color:var(--content-span-color);
+  font-size: 2em;
+}
+#content-text-align h2 {
+  font-size: 1.6em;
+}
+
+#content-bg a:link, #content-bg a:visited {
+    color: var(--content-span-color);
+}
+#content-bg a:hover, #content-bg a:active{
+    color: var(--content-span-color-over);
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+/********************************************/
+/*Footer*/
+/********************************************/
+footer {
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-container {
+  height: 100%;
+  display: inline-block; 
+  text-align: right;
+  vertical-align: middle;
+  width: 85%;
+  max-width: 1080px;
+}
+
+/********************************************/
+/*Social icon colors general*/
+/********************************************/
+.fa, .ai{
+  color : grey;
+  vertical-align: middle;
+}
+.fa:hover, .ai:hover{
+  color : white;
+}
